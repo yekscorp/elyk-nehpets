@@ -1,5 +1,9 @@
+# Targets are listed as T2, T4, T5, or R,S,T,U, ect...
+
 T2 = "Servo Input for Servo1X and Servo2Y T2 "
 T4 = "Servo Input for Servo1X and Servo2Y T4"
+
+#Simple Login
 
 def test():
     print "PAS-22 Control"
@@ -11,9 +15,11 @@ def test():
         test()
 
 test()
-def tselect():
 
- print "Tagret Selection"
+#Target Selection Process
+
+def tselect():
+    print "Tagret Selection"
     target = raw_input("Type in a Target Number:").lower()
     if target == "T2" or target == "t2":
          print T2
