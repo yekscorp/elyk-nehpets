@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 #This line is a test for GitHub or is it?
+=======
+>>>>>>> origin/master
 # Targets are listed as T2, T4, T5, or R,S,T,U, ect...
 
 T2 = "Servo Input for Servo1X and Servo2Y T2 "
